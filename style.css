@@ -88,9 +88,6 @@ p{
 }
 
 @media screen and (max-width:1024px){
-    body{
-        background-color: rgb(206, 248, 215);
-    }
     .links{
         font-size: 1.4em;;
     gap: 2em;
@@ -216,9 +213,6 @@ p{
     }
 }
 @media screen and (max-width: 480px){
-    body{
-        background-color: aquamarine;
-    }
     .main-container{
         margin: auto;
     height: auto;
