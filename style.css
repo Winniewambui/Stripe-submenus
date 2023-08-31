@@ -110,7 +110,7 @@ p{
         display: flex;
         align-items: center;
         justify-content: center;
-        gap: 150px;
+        gap: 60px;
         margin: 0 150px;
         max-width: 1000px;
     }
@@ -120,9 +120,9 @@ p{
         flex-direction: column;
         align-items: center;
         justify-content: between;
-        gap: 20px;
+        gap: 40px;
         align-items: self-start;
-        max-width: 1000px;
+        max-width: 800px;
         object-fit: contain;
     }
     .phone{
