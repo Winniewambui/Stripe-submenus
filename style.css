@@ -163,6 +163,9 @@ p{
         color: white;
         background-color: rgb(37, 37, 37);
     }
+    .toggle-btn:hover{
+        background-color: rgb(117, 115, 115);
+    }
     .links{
         display: none;
     }
