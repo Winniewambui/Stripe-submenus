@@ -87,8 +87,60 @@ p{
    display: none;
 }
 
-
-@media screen and (max-width: 1200px){
+@media screen and (max-width:1024px){
+    body{
+        background-color: rgb(206, 248, 215);
+    }
+    .links{
+        font-size: 1.4em;;
+    gap: 2em;
+    }
+    .sign-in-btn,
+    .start-btn{
+        padding: 10px 30px;
+        font-size: 20px;
+        font-weight: 700;
+        border-radius: 7px;
+        text-align: center;
+        border: none;
+        color: white;
+        background-color: rgb(37, 37, 37);
+    }
+    .section-center{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 150px;
+        margin: 0 150px;
+        max-width: 1000px;
+    }
+    .info{
+        display: flex;
+        flex: 1;
+        flex-direction: column;
+        align-items: center;
+        justify-content: between;
+        gap: 20px;
+        align-items: self-start;
+        max-width: 1000px;
+        object-fit: contain;
+    }
+    .phone{
+        margin-right: -150px;
+        height: 700px;
+    }
+    .details{
+        font-size: 3.0em;
+        line-height: 1.5em;
+        text-transform: capitalize;
+        white-space: nowrap;
+    }
+    p{
+        font-size: 19px;
+        line-height: 2em;
+    }
+}
+@media screen and (max-width: 800px){
     .main-container{
         margin: auto;
     height: auto;
@@ -136,7 +188,7 @@ p{
         justify-content: center;
         margin: 100px 150px 0px 0px;
         margin-bottom: 150px;
-        max-width: 700px;
+        max-width: 650px;
         text-align: left;
     }
     .info{
