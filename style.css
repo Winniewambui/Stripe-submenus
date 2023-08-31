@@ -1,0 +1,240 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(122, 69, 122);
+}
+.main-container{
+margin: 50px 50px 0px 0px;
+}
+.logo{
+    font-size: 3em;
+    text-transform: capitalize;
+}
+.navbar{
+display: flex;
+align-items: center;
+justify-content: space-around;
+color: white;
+
+}
+.links{
+    list-style-type: none;
+    font-size: 1.8em;
+    display: flex;
+align-items: center;
+justify-content: center;
+gap: 3em;
+text-transform: capitalize;
+font-weight: 700;
+}
+.links li:hover{
+    color: #000;
+}
+.sign-in-btn,
+.start-btn{
+    padding: 10px 30px;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 7px;
+    text-align: center;
+    border: none;
+    color: white;
+    background-color: rgb(37, 37, 37);
+}
+.sign-in-btn:hover,
+.start-btn:hover{
+    background-color: rgb(117, 115, 115);
+}
+.start-btn{
+    align-self: flex-start;
+    margin: 0;
+}
+.section-center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 200px;
+    margin: auto;
+    max-width: 1500px;
+}
+.info{
+    display: flex;
+    flex: 2;
+    flex-direction: column;
+    align-items: center;
+    justify-content: between;
+    gap: 30px;
+    align-items: self-start;
+}
+.phone{
+    margin-right: -100px;
+}
+.details{
+    font-size: 6em;
+    line-height: 1em;
+    text-transform: capitalize;
+    white-space: nowrap;
+}
+p{
+    font-size: 22px;
+    line-height: 2em;
+}
+.toggle-btn{
+   display: none;
+}
+
+
+@media screen and (max-width: 786px){
+    .main-container{
+        margin: auto;
+    height: auto;
+    max-width: 760px;
+    }
+    .logo{
+        font-size: 2.5em;
+    }
+    .navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    margin-top: 30px;
+    padding: 0 30px;
+    }
+    .toggle-btn{
+        display: block;
+        padding: 10px 15px;
+        font-size: 20px;
+        border-radius: 40%;
+        border: none;
+        color: white;
+        background-color: rgb(37, 37, 37);
+    }
+    .links{
+        display: none;
+    }
+    .sign-in-btn{
+        display: none;
+    }
+    .start-btn{
+        padding: 7px 30px;
+        font-size: 24px;
+        text-transform: capitalize;
+        margin-left: 0px;
+    }
+    .start-btn:hover{
+        background-color: rgb(117, 115, 115);
+    }
+    .section-center{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 200px 150px 0px 0px;
+        margin-bottom: 150px;
+        max-width: 700px;
+        text-align: left;
+    }
+    .info{
+        display: flex;
+        flex: 0;
+        flex-direction: column;
+        align-items: center;
+        justify-content: between;
+        gap: 30px;
+        margin-left: 0px;
+        width: 590px;
+        align-items: self-start;
+    }
+    .phone{
+        display: none;
+    }
+    .details{
+        font-size: 3em;
+        line-height: 1.4em;
+        margin-left: 0px;
+
+    }
+    p{
+        font-size: 20px;
+        line-height: 1.6em;
+    }
+}
+@media screen and (max-width: 480px){
+    body{
+        background-color: aquamarine;
+    }
+    .main-container{
+        margin: auto;
+    height: auto;
+    max-width: 760px;
+    }
+    .logo{
+        font-size: 2.5em;
+    }
+    .navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    margin-top: 30px;
+    padding: 0 30px;
+    }
+    .toggle-btn{
+        display: block;
+        padding: 10px 15px;
+        font-size: 20px;
+        border-radius: 40%;
+        border: none;
+        color: white;
+        background-color: rgb(37, 37, 37);
+    }
+    .links{
+        display: none;
+    }
+    .sign-in-btn{
+        display: none;
+    }
+    .start-btn{
+        padding: 7px 30px;
+        font-size: 24px;
+        text-transform: capitalize;
+        margin-left: 0px;
+    }
+    .start-btn:hover{
+        background-color: rgb(117, 115, 115);
+    }
+    .section-center{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        max-width: 350px;
+        margin: 100px auto;
+    }
+    .info{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: between;
+        gap: 30px;
+        margin-left: 0px;
+        width: 380px;
+        align-items: self-start;
+    }
+    .details{
+        font-size: 2.3em;
+        line-height: 1.4em;
+        margin-right: 0px;
+    }
+    p{
+        font-size: 22px;
+        line-height: 1.6em;
+    }
+    .phone{
+        display: none;
+    }
+}
