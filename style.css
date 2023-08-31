@@ -4,13 +4,13 @@
     box-sizing: border-box;
 }
 body{
-    background-color: rgb(122, 69, 122);
+    background-color: rgb(248, 206, 248);
 }
 .main-container{
-margin: 50px 50px 0px 0px;
+margin: 30px 50px 0px 0px;
 }
 .logo{
-    font-size: 3em;
+    font-size: 2.6em;
     text-transform: capitalize;
 }
 .navbar{
@@ -22,7 +22,7 @@ color: white;
 }
 .links{
     list-style-type: none;
-    font-size: 1.8em;
+    font-size: 1.2em;
     display: flex;
 align-items: center;
 justify-content: center;
@@ -56,9 +56,9 @@ font-weight: 700;
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 200px;
+    gap: 160px;
     margin: auto;
-    max-width: 1500px;
+    max-width: 1000px;
 }
 .info{
     display: flex;
@@ -71,9 +71,10 @@ font-weight: 700;
 }
 .phone{
     margin-right: -100px;
+    height: 700px;
 }
 .details{
-    font-size: 6em;
+    font-size: 4.8em;
     line-height: 1em;
     text-transform: capitalize;
     white-space: nowrap;
@@ -87,7 +88,7 @@ p{
 }
 
 
-@media screen and (max-width: 786px){
+@media screen and (max-width: 1000px){
     .main-container{
         margin: auto;
     height: auto;
