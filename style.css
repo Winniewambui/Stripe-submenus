@@ -391,12 +391,12 @@ p{
   }
 .close-btn{
     position: absolute;
-    font-size: 50px;
+    font-size: 40px;
     color: rgb(65, 63, 63);
      background: transparent;
   border-color: transparent;
-    top: 0.7em;
-    right: 1em;
+    top: 0.2em;
+    right: 0.5em;
     cursor: pointer;
 }
 article{
