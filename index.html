@@ -4,6 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Roboto:wght@500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
@@ -13,14 +19,20 @@
             <div class="navbar">
 <div class="logo">stripe</div>
 <button class="toggle-btn"><i class="fa fa-bars" aria-hidden="true"></i></button>
-<ul class="links">
-    <li>products</li>
-    <li>products</li>
-    <li>products</li>
+<ul class="nav-links">
+    <li><button class="link-btn">products</button>
+    </li>
+    <li><button class="link-btn">developers</button>
+    </li>
+    <li><button class="link-btn">company</button>
+    </li>
 </ul>
 <button class="sign-in-btn">sign in</button>
 </div>
 </nav>
+
+<div class="sublinks"></div>
+
 <section class="section-center">
 <article class="info">
     <h2 class="details">payments<br> infrastructure <br>for the internet</h2>
@@ -33,6 +45,14 @@
 </section>
     </div>
 
-    <script src="/script.js"></script>
+<!-- sidebar -->
+<div class="sidebar-container">
+    <button class="close-btn"><i class="fa fa-times" aria-hidden="true"></i></button>
+   <!-- sidebar links -->
+   <div class="sidebar-links"></div>
+</div>
+
+    <script type="module" src="/script.js"></script>
 </body>
 </html>
+
