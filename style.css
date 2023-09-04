@@ -56,6 +56,8 @@ width: 100%;
     letter-spacing: 1px;
     width: 12rem;
     position: relative;
+    cursor: pointer;
+
   }
   .sublinks {
     position: absolute;
@@ -115,6 +117,8 @@ width: 100%;
     border: none;
     color: white;
     background-color: rgb(37, 37, 37);
+    cursor: pointer;
+
 }
 .sign-in-btn:hover,
 .start-btn:hover{
@@ -385,18 +389,10 @@ p{
     z-index: 2;
     transform: scale(1);
   }
-.sidebar-links{
-    width: 90vw;
-    height: 95vh;
-    padding: 4rem 2rem;
-   padding-top: 80px;
-   border-radius: 20px;
-   position: relative;
-}
 .close-btn{
     position: absolute;
     font-size: 50px;
-    color: black;
+    color: rgb(65, 63, 63);
      background: transparent;
   border-color: transparent;
     top: 0.7em;
@@ -406,8 +402,8 @@ p{
 article{
     display: flex;
     flex-direction: column;
-    gap: 40px;
-    margin-left: 50px;
+    gap: 30px;
+    margin-left: 30px;
     margin-top: 50px;
 }
 h4{
@@ -417,10 +413,10 @@ h4{
 }
 .sidebar-sublinks{
 list-style-type: none;
-font-size: 20px;
+font-size: 16px;
 display: grid;
 grid-template-columns: repeat(2, 1fr);
-gap: 30px;
+gap: 20px;
 text-transform: capitalize;
 }
 .sidebar-sublinks a{
@@ -429,5 +425,5 @@ text-transform: capitalize;
 font-family: 'Roboto', sans-serif;
 }
 .sidebar-sublinks a i {
-    margin-right: 10px !important; 
+    margin-right: 4px !important; 
 }
